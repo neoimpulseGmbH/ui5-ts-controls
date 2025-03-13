@@ -9,7 +9,7 @@
         "strictNullChecks": false,
         "strictPropertyInitialization": false,
         "rootDir": "./",
-        "types": ["@sapui5/types", "@types/jquery", "@types/qunit"],
+        "types": ["@sapui5/types", "@types/jquery"],
         "paths": {
             "de/neoimpulse/*": ["./src/*"]
         }
