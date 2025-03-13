@@ -8,6 +8,9 @@
         "type": "git",
         "url": "https://github.com/neoimpulseGmbH/ui5-ts-controls"
     },
+    "publishConfig": {
+        "access": "public"
+    },
     "types": "dist/index.d.ts",
     "files": [
         "LICENCE",
