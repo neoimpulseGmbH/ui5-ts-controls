@@ -34,7 +34,7 @@
         "karma-ci": "karma start karma-ci.conf.js",
         "karma-ci-cov": "karma start karma-ci-cov.conf.js",
         "pretty": "npx prettier --write .",
-        "build:npm": "ui5 build --clean-dest && postbuild",
+        "build:npm": "ui5 build --clean-dest && npm run postbuild",
         "postbuild": "mv dist/resources/de/neoimpulse/* ."
     },
     "devDependencies": {
