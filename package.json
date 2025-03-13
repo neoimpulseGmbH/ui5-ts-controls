@@ -11,12 +11,19 @@
     "publishConfig": {
         "access": "public"
     },
-    "types": "dist/index.d.ts",
     "files": [
         "LICENCE",
         "README.md",
         "package.json",
+        "tsconfig.json",
         "ui5.yaml",
+        "messagebundle*.properties",
+        "manifest.json",
+        ".library",
+        "library*.js",
+        "library*.js.map",
+        "library*.d.ts",
+        "library*.d.ts.map",
         "Neo*.js",
         "Neo*.js.map",
         "Neo*.d.ts",
