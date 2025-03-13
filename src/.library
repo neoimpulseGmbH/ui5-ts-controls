@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<library xmlns="http://www.sap.com/sap.ui.library.xsd">
+	<name>de.neoimpulse</name>
+	<vendor>Neoimpulse GmbH</vendor>
+	<version>${version}</version>
+	<copyright>${copyright}</copyright>
+	<title>de.neoimpulse</title>
+	<documentation>Neoimpulse ui5 controls</documentation>
+	<dependencies>
+		<dependency>
+			<libraryName>sap.ui.core</libraryName>
+		</dependency>
+	</dependencies>
+</library>
