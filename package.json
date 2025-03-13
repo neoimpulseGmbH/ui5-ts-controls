@@ -48,6 +48,5 @@
         "typescript": "^5.5.4",
         "ui5-middleware-livereload": "^3.0.3",
         "ui5-tooling-transpile": "^3.4.8",
-        "semantic-release": "^24.0.0"
-    }
+        "semantic-release": "^24.2.1"
 }
