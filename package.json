@@ -15,11 +15,12 @@
     "files": [
         "LICENCE",
         "README.md",
-        "tsconfig.json",
+        "package.json",
         "ui5.yaml",
-        "dist/**/*.d.ts",
-        "dist/**/*.d.ts.map",
-        "src"
+        "Neo*.js",
+        "Neo*.js.map",
+        "Neo*.d.ts",
+        "Neo*.d.ts.map"
     ],
     "scripts": {
         "clean": "rimraf dist coverage",
@@ -32,7 +33,9 @@
         "karma": "karma start",
         "karma-ci": "karma start karma-ci.conf.js",
         "karma-ci-cov": "karma start karma-ci-cov.conf.js",
-        "pretty": "npx prettier --write ."
+        "pretty": "npx prettier --write .",
+        "build:npm": "ui5 build --clean-dest && postbuild",
+        "postbuild": "mv dist/resources/de/neoimpulse/* ."
     },
     "devDependencies": {
         "@sapui5/types": "1.133.0",
